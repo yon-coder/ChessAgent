@@ -48,7 +48,7 @@ ChessAgent/
 Clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/yon-coder/ChessAgent.git
 cd ChessAgent
 ```
 
