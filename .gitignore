@@ -1,26 +1,18 @@
-
-# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 
-# IDE
 .vscode/
 
-# Capturas e imagens temporárias
 screenshots/
 
-# Dataset bruto gerado automaticamente
 dataset/raw/
 
-# Modelos treinados
 models/*.pth
 models/*.pt
 
-# Configuração local
 board_config.json
 
-# Sistema
 .DS_Store
 Thumbs.db
