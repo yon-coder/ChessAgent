@@ -112,6 +112,12 @@ def capture_board():
     return image
 
 
+def calibrate_board():
+    """Captura a tela e permite selecionar novamente o tabuleiro."""
+    image, monitor = capture_screen()
+    return select_board(image, monitor)
+
+
 if __name__ == "__main__":
 
     image, monitor = capture_screen()
